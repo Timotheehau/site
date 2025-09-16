@@ -1,0 +1,64 @@
+.header {
+    background-color: #4777ab;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 50px;
+}
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+.root {
+    --primary-color: #5169bd;
+    --secondary-color: #4777ab;
+    --background-color: #fff3e0; 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+    justify-content: left;
+    text-align: left;
+}
+nav {
+    display: flex;
+    gap: 1rem;
+}
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
