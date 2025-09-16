@@ -12,7 +12,7 @@ function Header() {
                 <li><a href="#produits">Produits</a></li>
                 <li><a href="#nouveautés">Nouveautés</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#idees"><img src="/assets/idees-icon.png" alt="Idées" className="icon" />Idées</a></li>
+                <li><a href="#idees"><img src="../assets/idea.jpg" alt="Idées" className="icon" />Idées</a></li>
             </ul>
         </nav>
     </div>
